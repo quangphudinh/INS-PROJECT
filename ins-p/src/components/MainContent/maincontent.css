@@ -1,0 +1,87 @@
+.post-content {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;  
+    overflow-y: scroll;
+    flex-wrap: wrap;
+}
+
+.profile{
+    margin-top: 10px;
+}
+
+.post-container {
+    width: 500px;
+    background-color: #fff;
+    color: #000;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+}
+.post-header {
+    display: flex;
+    /* align-items: center; */
+    padding: 10px 20px;  
+}
+
+.post-username{
+    text-align: center;
+    padding-top: 10px;
+}
+
+.post-header img {
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+
+}
+.post-header .post-username {
+    font-weight: bold;
+}
+.post-header .post-time {
+    color: #888;
+    margin-left: 5px;
+    padding-top: 10px;
+}
+.image {
+    width: 100%;
+}
+.text-content {
+    padding: 20px;
+    font-size: 24px;
+    text-align: center;
+    color: #555;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+.post-image{
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+}
+
+
+.post-footer {
+    padding: 10px 20px;
+}
+.post-footer .likes {
+    font-weight: bold;
+}
+.post-footer .caption {
+    margin-top: 5px;
+}
+.post-footer .caption .username {
+    font-weight: bold;
+}
+.icon{
+    display: flex;
+    justify-content: space-around; /* Điều chỉnh khoảng cách giữa các phần tử nếu cần */
+    align-items: center; 
+    padding-right: 350px;
+    font-size: 20px;
+}

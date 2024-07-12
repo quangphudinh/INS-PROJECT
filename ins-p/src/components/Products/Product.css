@@ -1,0 +1,37 @@
+.product__list{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    /* justify-content: space-between;  */
+    
+}
+.product__item{
+    width: 30%;
+    margin-bottom: 30px;
+    border: 1px solid #ddd;
+    margin-right: 20px;
+    margin-left: 40px;
+}
+.product__item img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    aspect-ratio: 4/3;
+}
+.product__title{
+    font-size: 18px;
+    text-align: center;
+    font-weight: 600;
+    margin-top: 10px ;
+    margin-bottom: 10px;
+}
+.product__price{
+    color: red;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.product__percentage{
+    color: green;
+    margin-bottom: 10px;
+    text-align: center;
+}

@@ -1,0 +1,224 @@
+{
+    "user" : [
+        {
+          "id": 1,
+          "firstName": "Emily",
+          "lastName": "Johnson",
+          "maidenName": "Smith",
+          "age": 28,
+          "gender": "female",
+          "email": "emily.johnson@x.dummyjson.com",
+          "phone": "+81 965-431-3024",
+          "username": "emilys",
+          "password": "emilyspass",
+          "birthDate": "1996-5-30",
+          "image": "https://i.pinimg.com/236x/62/05/88/62058848a42abc7c3bed61877764f974.jpg",
+          "ip": "42.48.100.32",
+          "address": {
+            "address": "626 Main Street",
+            "city": "Phoenix",
+            "state": "Mississippi",
+            "country": "United States"
+          },
+          "role": "admin",
+          "posts" : [
+            {
+              "id": 1,
+              "title": "Post 1",
+              "body": "Một con đường không thể quay đầu lại, tức là cả đời có nhiều con đường để đi.!",
+              "image": "https://i.pinimg.com/236x/14/8a/95/148a9550310f8ac88f22f97f41baacf3.jpg",
+              "like": 100,
+              "comment" : 10,
+              "share" : 2,
+              "postTime": "2020-01-01T00:00:00.000Z"
+            },
+            {
+              "id": 2,
+              "title": "Post 2",
+              "body": "Càng trưởng thành, bạn sẽ nhận ra rằng tranh luận đúng sai hơn thua với người khác đôi khi không còn quan trọng nữa. Quan trọng là chỉ muốn bình yên.!",
+              "image": "https://i.pinimg.com/236x/c2/15/6c/c2156c7573dafa03be49f2039079f03e.jpg",
+              "like": 200,
+              "comment" : 10,
+              "share" : 2,
+              "postTime": "2020-01-01T00:00:00.000Z"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "firstName": "Michael",
+          "lastName": "Williams",
+          "maidenName": "",
+          "age": 35,
+          "gender": "male",
+          "email": "michael.williams@x.dummyjson.com",
+          "phone": "+49 258-627-6644",
+          "username": "michaelw",
+          "password": "michaelwpass",
+          "birthDate": "1989-8-10",
+          "image": "https://i.pinimg.com/564x/d0/48/3b/d0483b8fc5496238aab0fdd3b614e345.jpg",
+          "ip": "12.13.116.142",
+          "address": {
+            "address": "385 Fifth Street",
+            "city": "Houston",
+            "state": "Alabama",
+            "country": "United States"
+          },
+          "role": "user",
+          "posts" : [
+            {
+              "id": 1,
+              "title": "Post 1",
+              "body": " Anh muốn có một chuyến du lịch thật dài, em có muốn đồng hành cùng anh không?!",
+              "image": "https://i.pinimg.com/564x/42/35/4b/42354b2e9b917e4c1c540f991a1b8975.jpg",
+              "like": 100,
+              "comment" : 10,
+              "share" : 2,
+              "postTime": "2020-01-01T00:00:00.000Z"
+            },
+            {
+              "id": 2,
+              "title": "Post 2",
+              "body": "Một gia đình hạnh phúc chắc chắn phải luôn khỏe mạnh, thông cảm lẫn nhau và có kế hoạch để kinh tế gia đình luôn sung túc.!",
+              "image": "https://genk.mediacdn.vn/139269124445442048/2024/6/1/photo-1-17168606131071257137350-1717278776106716631383.jpg",
+              "like": 200,
+              "comment" : 10,
+              "share" : 2,
+              "postTime": "2020-01-01T00:00:00.000Z"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "firstName": "Sophia",
+          "lastName": "Brown",
+          "maidenName": "",
+          "age": 42,
+          "gender": "female",
+          "email": "sophia.brown@x.dummyjson.com",
+          "phone": "+81 210-652-2785",
+          "username": "sophiab",
+          "password": "sophiabpass",
+          "birthDate": "1982-11-6",
+          "image": "https://i.pinimg.com/564x/43/62/39/436239489534ab45f668f9620414fff9.jpg",
+          "ip": "214.225.51.195",
+          "address": {
+            "address": "1642 Ninth Street",
+            "city": "Washington",
+            "state": "Alabama",
+            "country": "United States"
+          },
+          "role": "user",
+          "posts" : [
+            {
+              "id": 1,
+              "title": "Post 1",
+              "body": "Thời gian trôi qua nhanh như tia nắng hòa mình trong đắm say, khoảng cách giết chết tình yêu chúng ta trong phút giây.!",
+              "image": "https://i.pinimg.com/236x/b0/b9/41/b0b9417760a0ac9af7dd7f6dd5f6d9c9.jpg",
+              "like": 100,
+              "comment" : 10,
+              "share" : 2,
+              "postTime": "2020-01-01T00:00:00.000Z"
+            },
+            {
+              "id": 2,
+              "title": "Post 2",
+              "body": "Thiên lý ơi em ở lại được k :))!",
+              "image": "https://streetartnews.net/wp-content/uploads/2018/02/IMG_4630-copy.jpg",
+              "like": 200,
+              "comment" : 10,
+              "share" : 2,
+              "postTime": "2020-01-01T00:00:00.000Z"
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "firstName": "James",
+          "lastName": "Davis",
+          "maidenName": "",
+          "age": 45,
+          "gender": "male",
+          "email": "james.davis@x.dummyjson.com",
+          "phone": "+49 614-958-9364",
+          "username": "jamesd",
+          "password": "jamesdpass",
+          "birthDate": "1979-5-4",
+          "image": "https://i.pinimg.com/474x/29/84/40/29844054acb89dbabcf6d83e840f63ec.jpg",
+          "ip": "101.118.131.66",
+          "address": {
+            "address": "238 Jefferson Street",
+            "city": "Seattle",
+            "state": "Pennsylvania",
+            "country": "United States"
+          },
+          "role": "user",
+          "posts" : [
+            {
+              "id": 1,
+              "title": "Post 1",
+              "body": "Em của ngày hôm qua!",
+              "image": "https://i.pinimg.com/736x/62/a1/0c/62a10c8417f2f4cbcbbcec7c6c05f006.jpg",
+              "like": 100,
+              "comment" : 10,
+              "share" : 2,
+              "postTime": "2020-01-01T00:00:00.000Z"
+            },
+            {
+              "id": 2,
+              "title": "Post 2",
+              "body": "ara ara ara!",
+              "image": "https://i.pinimg.com/736x/56/74/f4/5674f4b6491cea7cc3c5d34e84bf1a71.jpg",
+              "like": 200,
+              "comment" : 10,
+              "share" : 2,
+              "postTime": "2020-01-01T00:00:00.000Z"
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "firstName": "Emma",
+          "lastName": "Miller",
+          "maidenName": "Johnson",
+          "age": 30,
+          "gender": "female",
+          "email": "emma.miller@x.dummyjson.com",
+          "phone": "+91 759-776-1614",
+          "username": "emmaj",
+          "password": "emmajpass",
+          "birthDate": "1994-6-13",
+          "image": "https://i.pinimg.com/474x/c1/50/6a/c1506a85ec0c73145881d49417184ad4.jpg",
+          "ip": "224.126.22.183",
+          "address": {
+            "address": "607 Fourth Street",
+            "city": "Jacksonville",
+            "state": "Colorado",
+            "country": "United States"
+          },
+          "role": "user",
+          "posts" : [
+            {
+              "id": 1,
+              "title": "Post 1",
+              "body": "soft Huế tìm kiếm Dev Java từ 6 tháng kinh nghiệm, ưu tiên GPA từ 3.2 và ngoại ngữ tốt!",
+              "image": "https://i.pinimg.com/736x/5b/ee/a1/5beea18567e9d84702e8b6bd6365b480.jpg",
+              "like": 100,
+              "comment" : 10,
+              "share" : 2,
+              "postTime": "2020-01-01T00:00:00.000Z"
+            },
+            {
+              "id": 2,
+              "title": "Post 2",
+              "body": "Mang tiếng ở Thừa Thiên Huế nhưng cách thành phố Huế 62km :)) Mỗi lần đi lên thành phố mà tưởng sang thành phố khác !",
+              "image": "https://cdn.midjourney.com/a77b5753-7c6d-439c-9af5-870962ab47ae/0_3.webp",
+              "like": 200,
+              "comment" : 10,
+              "share" : 2,
+              "postTime": "2020-01-01T00:00:00.000Z"
+            }
+          ]
+        }
+    ]
+}
