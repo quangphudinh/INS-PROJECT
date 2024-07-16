@@ -20,7 +20,7 @@ function MainContent() {
         if (check === true)
             e.target.style.color = "red";
         else
-            e.target.style.color = "black";
+            e.target.style.color = "white";
     }
 
     console.log(data);
@@ -49,7 +49,9 @@ function MainContent() {
                                         </div>
                                         <div className="likes">{post_item.like} lượt thích</div>
                                         <div className="caption">
-                                            <span class="username">{item.firstName} {item.lastName} {item.maidenName} : </span> {post_item.body}
+                                            <span class="username">{item.firstName} {item.lastName} {item.maidenName}</span> 
+                                            <span class="text"> : {post_item.body}</span>
+                                            
                                         </div>
                                     </div>
                                 </div>

@@ -1,12 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
 .post-content {
     font-family: Arial, sans-serif;
-    background-color: #ffffff;
+    background-color: #090909;
     color: #fff;
     display: flex;
     justify-content: center;
     margin-top: 10px;  
     overflow-y: scroll;
     flex-wrap: wrap;
+    
 }
 
 .profile{
@@ -14,9 +17,10 @@
 }
 
 .post-container {
-    width: 500px;
-    background-color: #fff;
-    color: #000;
+    width: 600px;
+    height: auto;
+    background-color: #000000;
+    color: #f8f8f8;
     border-radius: 10px;
     margin-top: 10px;
     margin-bottom: 20px;
@@ -25,28 +29,28 @@
 .post-header {
     display: flex;
     /* align-items: center; */
-    padding: 10px 20px;  
+    margin: 10px;
 }
 
 .post-username{
     text-align: center;
-    padding-top: 10px;
+    padding-top: 4px;
+    font-family: "Oswald", sans-serif;
 }
 
-.post-header img {
+.post-avatar {
     border-radius: 50%;
     width: 40px;
     height: 40px;
-    margin-right: 10px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
 
-}
-.post-header .post-username {
-    font-weight: bold;
-}
 .post-header .post-time {
     color: #888;
-    margin-left: 5px;
-    padding-top: 10px;
+    margin-left: 10px;
+    padding-top: 13px;
+    font-size: 15px;
 }
 .image {
     width: 100%;
@@ -68,15 +72,29 @@
 
 .post-footer {
     padding: 10px 20px;
+    margin-bottom: 10px;
 }
 .post-footer .likes {
-    font-weight: bold;
+    font-family: "Jura", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 15px;
+    text-align: left;
+    padding-left: 20px;
+    margin-top: 10px;
 }
 .post-footer .caption {
     margin-top: 5px;
+    font-size: 15px;
+    text-align: left;
 }
-.post-footer .caption .username {
-    font-weight: bold;
+.username {
+    font-family: "Oswald", sans-serif;
+    font-size: 20px
+}
+.text {
+    font-family: "Questrial", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 .icon{
     display: flex;
