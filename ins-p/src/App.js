@@ -1,22 +1,16 @@
-import './App.css';
-import MainContent from './components/MainContent';
-import RightContent from './components/RightContent';
-import Header from './components/Header';
-import LeftContent from './components/LeftContent';
+import HomePage from "./pages/HomePage/HomePage";
+import PageLayout from "./Layouts/PageLayout/PageLayout";
+import AuthPage from "./pages/AuthPage/AuthPage";
+import { Routes, Route, Router } from "react-router-dom";
 
 function App() {
-  return (
-    <>
-      <body className='body'>
-        <LeftContent />
-        <div className='main'>
-          <Header />
-          <MainContent />
-        </div>
-        <RightContent />
-      </body>
-    </>
-  );
+
+
+	return (
+		<PageLayout>
+			<HomePage />
+		</PageLayout>
+	);
 }
 
 export default App;
