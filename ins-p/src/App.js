@@ -5,18 +5,9 @@ import Header from './components/Header';
 import LeftContent from './components/LeftContent';
 
 function App() {
-  return (
-    <>
-      {/* <body className='body'>
-        <LeftContent />
-        <div className='main'>
-          <Header />
-          <MainContent />
-        </div>
-        <RightContent />
-      </body> */}
-
-      <div class="main">
+    return (
+        <>
+            {/* <div class="main">
         <div class="box sidebar-1">
           <LeftContent />
           <div class="line"></div>
@@ -28,9 +19,28 @@ function App() {
           <div class="box header"><Header /></div>
           <div class="box footer"><MainContent /></div>
         </div>
-      </div>
-    </>
-  );
+      </div> */}
+
+            <div class="section-main">
+                <div class="inner-wrap">
+                    <div class="sidebar-left">
+                        <LeftContent />
+                    </div>
+                    <div class="main-content">
+                        <div class="inner-head">
+                            <Header />
+                        </div>
+                        <div class="inner-post">
+                            <MainContent />
+                        </div>
+                    </div>
+                    <div class="sidebar-right">
+                        <RightContent />
+                    </div>
+                </div>
+            </div>
+        </>
+    );
 }
 
 export default App;

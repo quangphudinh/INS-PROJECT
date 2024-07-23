@@ -3,7 +3,7 @@ function RightContent() {
     return (
         <>
             <div class="sidebar-right">
-                <p>Sidebar Right</p>
+                Sidebar Right
             </div>
         </>
     )
