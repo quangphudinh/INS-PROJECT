@@ -12,7 +12,7 @@ import {
 	ModalHeader,
 	ModalOverlay,
 	Tooltip,
-	useDisclosure,
+	// useDisclosure,
 } from "@chakra-ui/react";
 import { SearchLogo } from "../../assets/constants";
 

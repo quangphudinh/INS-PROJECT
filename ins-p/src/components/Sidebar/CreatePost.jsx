@@ -14,7 +14,7 @@ import {
 	ModalOverlay,
 	Textarea,
 	Tooltip,
-	useDisclosure,
+	// useDisclosure,
 } from "@chakra-ui/react";
 import { CreatePostLogo } from "../../assets/constants";
 import { BsFillImageFill } from "react-icons/bs";

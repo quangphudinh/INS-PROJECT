@@ -3,6 +3,11 @@ import { AiFillHome } from "react-icons/ai";
 import { Link as RouterLink } from "react-router-dom";
 
 const Home = () => {
+
+	const refreshButton = () => {
+		window.location.reload();
+	}
+
 	return (
 		<Tooltip
 			hasArrow
@@ -14,7 +19,7 @@ const Home = () => {
 		>
 			<Link
 				display={"flex"}
-				to={"/"}
+				to={"/home"}
 				as={RouterLink}
 				alignItems={"center"}
 				gap={4}
@@ -23,6 +28,7 @@ const Home = () => {
 				p={2}
 				w={{ base: 10, md: "full" }}
 				justifyContent={{ base: "center", md: "flex-start" }}
+				onClick={refreshButton}
 			>
 				<AiFillHome size={25} />
 				<Box display={{ base: "none", md: "block" }}>Home</Box>

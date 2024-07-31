@@ -1,11 +1,24 @@
 import { Box, Flex, Image, Text, VStack } from "@chakra-ui/react";
-import { useState } from "react";
+// import { useState } from "react";
 import Login from "./Login";
 import Signup from "./Signup";
 import GoogleAuth from "./GoogleAuth";
-
+import { useSelector } from "react-redux";
+import { useDispatch } from "react-redux";
+import { useState } from "react";
+import { checkLogin } from "../../components_1/actions/action_login";
 const AuthForm = () => {
-	const [isLogin, setIsLogin] = useState(true);
+	const [login, setLogin] = useState(true);
+	const isLogin = useSelector((state) => state.loginReducer);
+    // console.log(isLogin);
+	const dispatch = useDispatch();
+
+	const handleClick = (e) => {
+		e.preventDefault();
+		setLogin(!login);
+		dispatch(checkLogin(login));
+		// console.log(isLogin);
+	};
 
 	return (
 		<>
@@ -33,7 +46,7 @@ const AuthForm = () => {
 					<Box mx={2} fontSize={14}>
 						{isLogin ? "Don't have an account?" : "Already have an account?"}
 					</Box>
-					<Box onClick={() => setIsLogin(!isLogin)} color={"blue.500"} cursor={"pointer"}>
+					<Box onClick={handleClick} color={"blue.500"} cursor={"pointer"}>
 						{isLogin ? "Sign up" : "Log in"}
 					</Box>
 				</Flex>

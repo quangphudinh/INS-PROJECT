@@ -1,6 +1,6 @@
 import React from 'react';
 import PrivateRoutes from '../components_1/privateRoutes';
-import AuthPageMain from '../pages_main/AuthPage/authPage';
+import AuthPage from '../pages/AuthPage/AuthPage';
 import HomePageMain from '../pages_main/HomePage/homePage';
 import LogOut from '../components/AuthForm/Logout';
 
@@ -13,7 +13,7 @@ export const routes = [
         children: [
             {
                 path: '/',
-                element : <AuthPageMain/>
+                element :   <AuthPage />
                
             },
             {

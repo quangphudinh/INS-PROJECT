@@ -45,7 +45,6 @@ const Login = () => {
 					marginBottom={5}
 					// value={inputs.email}
 					// onChange={(e) => setInputs({ ...inputs, email: e.target.value })}
-
 				/>
 				<Input
 					placeholder='Password'
@@ -65,7 +64,6 @@ const Login = () => {
 					Log in
 				</Button>
 			</form>
-
 		</>
 	);
 };
