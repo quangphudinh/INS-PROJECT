@@ -1,23 +1,16 @@
-import Modal from 'react-modal';
-import { useEffect, useState } from 'react';
 
+import Modal from 'react-modal';
 import Swal from 'sweetalert2/dist/sweetalert2.js'
 import 'sweetalert2/src/sweetalert2.scss'
-import { getListCategories } from '../../services/categoryService';
-import { updateProduct } from '../../services/productsService';
-function EditProduct(props) {
-    const { item, onReload } = props;
+
+import { useState } from 'react';
+import { updateUser } from "../services/UserService";
+
+
+function EditProfile(props) {
+    const { item } = props;
     const [showModal, setShowModal] = useState(false);
     const [data, setData] = useState(item);
-    const [dataCategory, setDataCategory] = useState([]);
-
-    useEffect(() => {
-        const fectApi = async () => {
-            const result = await getListCategories();
-            setDataCategory(result);
-        }
-        fectApi();
-    }, [])
 
     const customStyles = {
         content: {
@@ -27,6 +20,11 @@ function EditProduct(props) {
             bottom: 'auto',
             marginRight: '-50%',
             transform: 'translate(-50%, -50%)',
+            backgroundColor: '#f0f0f0', // Màu nền của modal
+            color: 'red', // Màu văn bản
+            border: '1px solid #ccc', // Màu viền
+            borderRadius: '10px', // Bo tròn các góc
+            padding: '20px', // Khoảng cách bên trong
         },
     };
 
@@ -48,25 +46,17 @@ function EditProduct(props) {
     }
     const openModal = () => {
         setShowModal(true);
+        console.log("submit submit");
     }
 
     //NGANG DAY CHUA TOI UU XONG - 1H51
 
     const handleSubmit = async (event) => {
         event.preventDefault();
-        // const reponse = await fetch('http://localhost:3000/products/' + item.id, {
-        //     method: 'PATCH',
-        //     headers: {
-        //         Accept: 'application/json',
-        //         'Content-Type': 'application/json',
-        //     },
-        //     body: JSON.stringify(data), //chuyển data sang chuỗi JSON và đẩy qua body ở postman
-        // })
-        // const result = await reponse.json();
-        const result = await updateProduct(item.id, data);
+        const result = await updateUser(item.id, data);
         if (result) {
             closeModal();
-            onReload();
+            // onReload();
             Swal.fire({
                 position: "center",
                 icon: "success",
@@ -95,26 +85,15 @@ function EditProduct(props) {
                             <tr>
                                 <td>Product Name</td>
                                 <td>
-                                    <input
+                                    <input 
+                                                                                
                                         type="text"
                                         name="title"
                                         onChange={handleOnChange}
-                                        value={data.title}
+                                        // value={data.title}
                                         required />
                                 </td>
                             </tr>
-                            {dataCategory.length > 0 && (
-                                <tr>
-                                    <td>List Category</td>
-                                    <td>
-                                        <select name="category" onChange={handleOnChange}
-                                            value={data.category}>
-                                            {dataCategory.map((item, index) =>
-                                                <option key={index} value={item.name}>{item.name}</option>)}
-                                        </select>
-                                    </td>
-                                </tr>
-                            )}
 
                             <tr>
                                 <td>Price</td>
@@ -123,7 +102,7 @@ function EditProduct(props) {
                                         type="text"
                                         name="price"
                                         onChange={handleOnChange}
-                                        value={data.price}
+                                        // value={data.price}
                                         required />
                                 </td>
                             </tr>
@@ -134,7 +113,7 @@ function EditProduct(props) {
                                         type="text"
                                         name="discountPercentage"
                                         onChange={handleOnChange}
-                                        value={data.discountPercentage}
+                                        // value={data.discountPercentage}
                                         required />
                                 </td>
                             </tr>
@@ -145,7 +124,7 @@ function EditProduct(props) {
                                         type="text"
                                         name="stock"
                                         onChange={handleOnChange}
-                                        value={data.stock}
+                                        // value={data.stock}
                                         required />
                                 </td>
                             </tr>
@@ -156,7 +135,7 @@ function EditProduct(props) {
                                         type="text"
                                         name="thumbnail"
                                         onChange={handleOnChange}
-                                        value={data.thumbnail}
+                                        // value={data.thumbnail}
                                         required />
                                 </td>
                             </tr>
@@ -167,7 +146,8 @@ function EditProduct(props) {
                                         type="text"
                                         name="description"
                                         onChange={handleOnChange}
-                                        value={data.description} />
+                                        // value={data.description} 
+                                        />
                                 </td>
                             </tr>
                             <tr>
@@ -183,10 +163,10 @@ function EditProduct(props) {
 
                     </table>
                 </form>
-
             </Modal>
         </>
+
     )
 }
 
-export default EditProduct;
+export default EditProfile;

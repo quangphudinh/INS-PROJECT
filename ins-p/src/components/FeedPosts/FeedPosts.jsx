@@ -2,12 +2,15 @@ import { Container, Skeleton, VStack, Flex, Box } from '@chakra-ui/react'
 import FeedPost from './FeedPost'
 import { useEffect, useState } from 'react'
 import { getdataPost, getdataUser } from '../../components_1/services/UserService'
-
+import { getCookie } from '../../components_1/helpers/cookie'
 
 const FeedPosts = () => {
     const [postData, setPostData] = useState([])
     const [userData, setUserData] = useState([])
     const [isLoading, setIsLoading] = useState(true)
+    const idUser = getCookie("id");
+
+    // console.log(idUser);
 
     useEffect(() => {
         const fectApi = async () => {
@@ -41,14 +44,21 @@ const FeedPosts = () => {
                     </Skeleton>
                 </VStack>
             ))}
-            {postData.map((post, idx) => (
-                <>
-                    <FeedPost key={idx} img={post.image} username={userData[post.userId]?.username} avatar={userData[post.userId]?.image} title={post.body} />
-                    {console.log(post)}
-                </>
-
-            ))
-        }
+            {postData.map((post, idx) => {
+                if (post.userId !== parseInt(idUser)) {
+                    return (
+                        <div key={idx}>
+                            <FeedPost 
+                                img={post.image}
+                                username={userData[post.userId-1]?.username}
+                                avatar={userData[post.userId-1]?.image}
+                                time = {post.postTime}
+                                title={post.body} />
+                        </div>
+                    )
+                }else return null;
+            })
+            }
         </Container>
     )
 }

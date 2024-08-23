@@ -15,10 +15,10 @@ const Login = () => {
 
 		// console.log(email, password);
 		if(email !== "" && password !== ""){
-			const response = await login(email, password);
-			if(response.length > 0)
+			const response = await login(email);
+			if(response.length > 0 & response[0].password === password)
 				{
-					console.log(response);  
+					// console.log(response);  
 					setCookie("id", response[0].id, 1);
 					setCookie("fullname", response[0].username , 1);
 					setCookie("email", response[0].email, 1);

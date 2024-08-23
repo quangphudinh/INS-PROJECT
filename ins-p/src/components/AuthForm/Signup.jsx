@@ -49,8 +49,6 @@ const Signup = () => {
 				fontSize={14}
 				size={"sm"}
 				type='text'
-				// value={inputs.password}
-				// onChange={(e) => setInputs({ ...inputs, password: e.target.value })}
 			/>
 
 			<Input
@@ -58,16 +56,12 @@ const Signup = () => {
 				fontSize={14}
 				type='email'
 				size={"sm"}
-				// value={inputs.email}
-				// onChange={(e) => setInputs({ ...inputs, email: e.target.value })}
 			/>
 			<Input
 				placeholder='Password'
 				fontSize={14}
 				size={"sm"}
 				type='password'
-				// value={inputs.password}
-				// onChange={(e) => setInputs({ ...inputs, password: e.target.value })}
 			/>
 
 			<Input
@@ -75,8 +69,6 @@ const Signup = () => {
 				fontSize={14}
 				size={"sm"}
 				type='password'
-				// value={inputs.password}
-				// onChange={(e) => setInputs({ ...inputs, password: e.target.value })}
 			/>
 
 			<Button

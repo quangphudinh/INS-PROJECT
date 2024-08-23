@@ -5,6 +5,10 @@ import { getId } from "../../components_1/services/UserService";
 import { useEffect, useState } from "react";
 
 import { NavLink } from "react-router-dom";
+// import EditProfile from "../../components_1/userEdit/EditProfile";
+
+import Modal from 'react-modal';
+Modal.setAppElement('#root'); // Đặt phần tử gốc
 
 
 const SuggestedHeader = () => {
@@ -19,7 +23,7 @@ const SuggestedHeader = () => {
         fectApi();
     }, [id]);
 
-    console.log(dataUser);
+    // console.log(dataUser);
 
 
 
@@ -28,7 +32,10 @@ const SuggestedHeader = () => {
             {dataUser.length > 0 ? (
                 <Flex justifyContent={"space-between"} alignItems={"center"} w={"full"}>
                     <Flex alignItems={"center"} gap={2}>
-                        <Avatar name="myinsta" size={"md"} src={dataUser[0].image} />
+                        <Avatar name="myinsta" size={"md"} src={dataUser[0].image}>
+                            {/* <EditProfile dataUser={dataUser} /> */}
+                        </Avatar>
+                        
                         <Text fontSize={12} fontWeight={"bold"} width={'full'} marginLeft={5} >
                             {dataUser[0].username}
                         </Text>
