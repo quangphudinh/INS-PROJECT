@@ -32,7 +32,7 @@ const randomId = () => {
 const rootData = {
 	id: randomId(),
 	userId: 0,
-	title: `Post thu ${randomId()}`,
+	// title: `Post thu ${randomId()}`,
 	// body: "",
 	// image: "",
 	like: 0,
@@ -43,7 +43,7 @@ const rootData = {
 // end upload file
 
 const CreatePost = () => {
-	const idUser = getCookie("id");
+	const idUser = parseFloat(getCookie("id"));
 	const [isModalOpen, setIsModalOpen] = useState(false);
 	const toggleModal = () => setIsModalOpen(!isModalOpen);
 

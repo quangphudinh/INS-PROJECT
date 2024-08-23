@@ -1,11 +1,12 @@
 import { Box, Link, Tooltip } from "@chakra-ui/react";
 import { AiFillHome } from "react-icons/ai";
 import { Link as RouterLink } from "react-router-dom";
+import { useNavigate } from 'react-router-dom';
 
 const Home = () => {
-
+	const navigate = useNavigate();
 	const refreshButton = () => {
-		window.location.reload();
+		navigate("/home");
 	}
 
 	return (

@@ -59,22 +59,14 @@
       "password": "123",
       "token": "HFKYFwfiB9",
       "image": "https://i.pinimg.com/474x/90/57/0a/90570addee2645866a597530721f37fd.jpg"
-    },
-    {
-      "id": "6312",
-      "username": "123123123",
-      "email": "123@gmail.com",
-      "password": "123",
-      "token": "69d214054b493edf"
     }
   ],
   "posts": [
     {
       "id": "1",
       "userId": 6,
-      "title": "Post 1",
-      "body": "soft Huế tìm kiếm Dev Java từ 6 tháng kinh nghiệm, ưu tiên GPA từ 3.2 và ngoại ngữ tốt!",
-      "image": "https://i.pinimg.com/736x/5b/ee/a1/5beea18567e9d84702e8b6bd6365b480.jpg",
+      "body": "Siuuuuuuuuuuuuuuuuuuuuuu",
+      "image": "https://file3.qdnd.vn/data/images/0/2023/03/29/tranthaiphuong/messi-29323m.jpg?dpi=150&quality=100&w=870",
       "like": 100,
       "comment": 10,
       "share": 2,
@@ -83,9 +75,8 @@
     {
       "id": "2",
       "userId": 3,
-      "title": "Post 2",
-      "body": "Mang tiếng ở Thừa Thiên Huế nhưng cách thành phố Huế 62km :)) Mỗi lần đi lên thành phố mà tưởng sang thành phố khác !",
-      "image": "https://cdn.midjourney.com/a77b5753-7c6d-439c-9af5-870962ab47ae/0_3.webp",
+      "body": "Messi ???",
+      "image": "https://photo.znews.vn/w480/Uploaded/bpivpawv/2024_08_21/o.jpg",
       "like": 200,
       "comment": 10,
       "share": 2,
@@ -94,7 +85,6 @@
     {
       "id": "3",
       "userId": 2,
-      "title": "Post 1",
       "body": "Một con đường không thể quay đầu lại, tức là cả đời có nhiều con đường để đi.!",
       "image": "https://i.pinimg.com/236x/14/8a/95/148a9550310f8ac88f22f97f41baacf3.jpg",
       "like": 100,
@@ -105,7 +95,6 @@
     {
       "id": "4",
       "userId": 1,
-      "title": "Post 2",
       "body": "Càng trưởng thành, bạn sẽ nhận ra rằng tranh luận đúng sai hơn thua với người khác đôi khi không còn quan trọng nữa. Quan trọng là chỉ muốn bình yên.!",
       "image": "https://i.pinimg.com/236x/c2/15/6c/c2156c7573dafa03be49f2039079f03e.jpg",
       "like": 200,
@@ -116,7 +105,6 @@
     {
       "id": "5",
       "userId": 4,
-      "title": "Post 1",
       "body": " Anh muốn có một chuyến du lịch thật dài, em có muốn đồng hành cùng anh không?!",
       "image": "https://i.pinimg.com/564x/42/35/4b/42354b2e9b917e4c1c540f991a1b8975.jpg",
       "like": 100,
@@ -127,7 +115,6 @@
     {
       "id": "6",
       "userId": 5,
-      "title": "Post 2",
       "body": "Một gia đình hạnh phúc chắc chắn phải luôn khỏe mạnh, thông cảm lẫn nhau và có kế hoạch để kinh tế gia đình luôn sung túc.!",
       "image": "https://genk.mediacdn.vn/139269124445442048/2024/6/1/photo-1-17168606131071257137350-1717278776106716631383.jpg",
       "like": 200,
@@ -138,7 +125,6 @@
     {
       "id": "7",
       "userId": 1,
-      "title": "Post 1",
       "body": "Thời gian trôi qua nhanh như tia nắng hòa mình trong đắm say, khoảng cách giết chết tình yêu chúng ta trong phút giây.!",
       "image": "https://i.pinimg.com/236x/b0/b9/41/b0b9417760a0ac9af7dd7f6dd5f6d9c9.jpg",
       "like": 100,
@@ -149,7 +135,6 @@
     {
       "id": "8",
       "userId": 3,
-      "title": "Post 2",
       "body": "Thiên lý ơi em ở lại được k :))!",
       "image": "https://streetartnews.net/wp-content/uploads/2018/02/IMG_4630-copy.jpg",
       "like": 200,
@@ -160,7 +145,6 @@
     {
       "id": "9",
       "userId": 4,
-      "title": "Post 1",
       "body": "Em của ngày hôm qua!",
       "image": "https://i.pinimg.com/736x/62/a1/0c/62a10c8417f2f4cbcbbcec7c6c05f006.jpg",
       "like": 100,
@@ -171,7 +155,6 @@
     {
       "id": "10",
       "userId": 2,
-      "title": "Post 2",
       "body": "ara ara ara!",
       "image": "https://i.pinimg.com/736x/56/74/f4/5674f4b6491cea7cc3c5d34e84bf1a71.jpg",
       "like": 200,
@@ -182,7 +165,6 @@
     {
       "id": "11",
       "userId": 6,
-      "title": "Post 1",
       "body": "soft Huế tìm kiếm Dev Java từ 6 tháng kinh nghiệm, ưu tiên GPA từ 3.2 và ngoại ngữ tốt!",
       "image": "https://i.pinimg.com/736x/5b/ee/a1/5beea18567e9d84702e8b6bd6365b480.jpg",
       "like": 100,
@@ -193,7 +175,6 @@
     {
       "id": "12",
       "userId": 5,
-      "title": "Post 2",
       "body": "Mang tiếng ở Thừa Thiên Huế nhưng cách thành phố Huế 62km :)) Mỗi lần đi lên thành phố mà tưởng sang thành phố khác !",
       "image": "https://cdn.midjourney.com/a77b5753-7c6d-439c-9af5-870962ab47ae/0_3.webp",
       "like": 200,
@@ -203,8 +184,7 @@
     },
     {
       "id": "x6vh9x7ni-lzuknl6t",
-      "userId": "6",
-      "title": "Post thu 1r3omp79b-lzuknl6t",
+      "userId": 6,
       "like": 0,
       "comment": 0,
       "share": 0,
@@ -213,15 +193,14 @@
       "image": "https://res.cloudinary.com/insdata/image/upload/v1723683556/fck_rirbvt.jpg"
     },
     {
-      "id": "a1bjmnhz8-m06dqclh",
-      "userId": "6",
-      "title": "Post thu gr8m2r186-m06dqclh",
+      "id": "purwaqtq6-m06g09d6",
+      "userId": 6,
       "like": 0,
       "comment": 0,
       "share": 0,
-      "postTime": "2024-08-23T07:17:51.557Z",
-      "body": "i have a girlfriend\n",
-      "image": "https://res.cloudinary.com/insdata/image/upload/v1724397790/000_piqo8p.jpg"
+      "postTime": "2024-08-23T08:21:33.162Z",
+      "body": "123 123 123 ",
+      "image": "https://res.cloudinary.com/insdata/image/upload/v1724401365/Zephyrus_G14_1920x1080_qacdfo.jpg"
     }
   ]
 }
