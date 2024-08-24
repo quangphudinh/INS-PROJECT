@@ -1,11 +1,27 @@
 import { Avatar, Box, Link, Tooltip } from "@chakra-ui/react";
-// import { Link as RouterLink } from "react-router-dom";
+import React, { useEffect, useState } from "react";
+import { getCookie } from "../../components_1/helpers/cookie";
+import { getId } from "../../components_1/services/UserService";
 import { useNavigate } from 'react-router-dom';
 const ProfileLink = () => {
 	const navigate = useNavigate();
 	const refreshButton = () => {
 		navigate("/inforUser");
 	}
+
+	const [dataUser, setDataUser] = useState({});
+    const id = getCookie("id");
+
+    useEffect(() => {
+        const fectApi = async () => {
+            const result = await getId(id);
+            setDataUser(result);
+        };
+        fectApi();
+    }, [id]);
+
+	// console.log(dataUser);
+
 	return (
 		<Tooltip
 			hasArrow
@@ -26,7 +42,7 @@ const ProfileLink = () => {
 				justifyContent={{ base: "center", md: "flex-start" }}
 				onClick={refreshButton}
 			>
-				<Avatar size={"sm"} src/>
+				<Avatar size={"sm"} src = {dataUser[0]?.image}/>
 				<Box display={{ base: "none", md: "block" }}>Profile</Box>
 			</Link>
 		</Tooltip>

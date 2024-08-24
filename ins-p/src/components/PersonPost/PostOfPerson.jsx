@@ -50,14 +50,9 @@ const PostOfPerson = () => {
                 if (post.userId === parseInt(idUser)) {
                     return (
                         <div key={idx}>
-                            {/* <FeedPost 
-                                img={post.image}
-                                username={userData[post.userId-1]?.username}
-                                avatar={userData[post.userId-1]?.image}
-                                time = {post.postTime}
-                                title={post.body} /> */}
+
                             <>
-                                <PostHeader username={userData[post.userId-1]?.username} avatar={userData[post.userId-1]?.image} time={post.postTime} />
+                                <PostHeader id = {post.id} username={userData[post.userId-1]?.username} avatar={userData[post.userId-1]?.image} time={post.postTime} imgUrl={post.image}/>
                                 <Box my={3}
                                     borderRadius={4}
                                     overflow={"hidden"}

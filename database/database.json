@@ -163,16 +163,6 @@
       "postTime": "2024-07-30T00:00:00.000Z"
     },
     {
-      "id": "11",
-      "userId": 6,
-      "body": "soft Huế tìm kiếm Dev Java từ 6 tháng kinh nghiệm, ưu tiên GPA từ 3.2 và ngoại ngữ tốt!",
-      "image": "https://i.pinimg.com/736x/5b/ee/a1/5beea18567e9d84702e8b6bd6365b480.jpg",
-      "like": 100,
-      "comment": 10,
-      "share": 2,
-      "postTime": "2024-08-11T00:00:00.000Z"
-    },
-    {
       "id": "12",
       "userId": 5,
       "body": "Mang tiếng ở Thừa Thiên Huế nhưng cách thành phố Huế 62km :)) Mỗi lần đi lên thành phố mà tưởng sang thành phố khác !",
@@ -181,26 +171,6 @@
       "comment": 10,
       "share": 2,
       "postTime": "2024-08-12T00:00:00.000Z"
-    },
-    {
-      "id": "x6vh9x7ni-lzuknl6t",
-      "userId": 6,
-      "like": 0,
-      "comment": 0,
-      "share": 0,
-      "postTime": "2024-08-15T00:58:25.925Z",
-      "body": "0ne two ti - fi fai on de mic",
-      "image": "https://res.cloudinary.com/insdata/image/upload/v1723683556/fck_rirbvt.jpg"
-    },
-    {
-      "id": "purwaqtq6-m06g09d6",
-      "userId": 6,
-      "like": 0,
-      "comment": 0,
-      "share": 0,
-      "postTime": "2024-08-23T08:21:33.162Z",
-      "body": "123 123 123 ",
-      "image": "https://res.cloudinary.com/insdata/image/upload/v1724401365/Zephyrus_G14_1920x1080_qacdfo.jpg"
     }
   ]
 }

@@ -1,4 +1,4 @@
-import { get , post , patch} from "../utils/request";
+import { get , post , patch ,del} from "../utils/request";
 export const login = async (email,password) => {
     const result = await get(`user?email=${email}`)
     return result;
@@ -32,5 +32,10 @@ export const updateUser = async (id, data) => {
 //Phần post bài
 export const getdataPost = async () => {   
     const result = await get("posts");
+    return result;
+}
+
+export const deletePost = async (id) => {
+    const result = await del("posts/" + id)
     return result;
 }
