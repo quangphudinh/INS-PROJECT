@@ -17,6 +17,9 @@ const PostHeader = ({username, avatar, time}) => {
     }else {
         stringDaysDifference = daysDifference + "m";
     }
+
+    // console.log(username + " " + avatar + " " + time);
+
   return (
     <Flex justifyContent={"space-between"}
     alignItems={"center"}

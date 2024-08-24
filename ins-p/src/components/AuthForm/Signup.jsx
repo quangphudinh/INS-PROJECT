@@ -1,15 +1,27 @@
 // import { ViewIcon, ViewOffIcon } from "@chakra-ui/icons";
 // import { Alert, AlertIcon, Button, Input, InputGroup, InputRightElement } from "@chakra-ui/react";
 import { Button, Input } from "@chakra-ui/react";
-import { getRegister } from "../../components_1/services/UserService";
+import { getdataUser, getRegister } from "../../components_1/services/UserService";
 import { createUser } from "../../components_1/services/UserService";
 import { useDispatch } from "react-redux";
 import { checkLogin } from "../../components_1/actions/action_login";
 import { radomToken } from "../../components_1/helpers/createToke";
+import { useEffect , useState } from "react";
 
 const Signup = () => {
 	// const navigate = useNavigate();
 	const dispatch = useDispatch();
+	const [dataUser, setDataUser] = useState([]);
+
+	useEffect(() => {
+		const fectApi = async () => {
+			const result = await getdataUser();
+			setDataUser(result);
+		}
+		fectApi();
+	}, []);
+
+	// console.log("Data User Register:" + dataUser.length);
 
 	const handleSubmit = async (e) => {
 		e.preventDefault();
@@ -22,6 +34,7 @@ const Signup = () => {
 		if(userName !== "" && email !== "" && passWord !== "" && cfPassWord !== "" && passWord === cfPassWord){
 			const token = radomToken();
 			const data = {
+				id : dataUser.length + 1,
 				username: userName,
 				email: email,
 				password: passWord,

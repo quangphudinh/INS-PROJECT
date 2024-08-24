@@ -1,7 +1,7 @@
 {
   "user": [
     {
-      "id": "1",
+      "id": 1,
       "firstName": "Emily",
       "lastName": "Johnson",
       "username": "emilys",
@@ -11,7 +11,7 @@
       "image": "https://i.pinimg.com/236x/62/05/88/62058848a42abc7c3bed61877764f974.jpg"
     },
     {
-      "id": "2",
+      "id": 2,
       "firstName": "Michael",
       "lastName": "Williams",
       "username": "michaelw",
@@ -21,7 +21,7 @@
       "image": "https://i.pinimg.com/564x/d0/48/3b/d0483b8fc5496238aab0fdd3b614e345.jpg"
     },
     {
-      "id": "3",
+      "id": 3,
       "firstName": "Sophia",
       "lastName": "Brown",
       "username": "sophiab",
@@ -31,7 +31,7 @@
       "image": "https://i.pinimg.com/564x/43/62/39/436239489534ab45f668f9620414fff9.jpg"
     },
     {
-      "id": "4",
+      "id": 4,
       "firstName": "James",
       "lastName": "Davis",
       "username": "jamesd",
@@ -41,7 +41,7 @@
       "image": "https://i.pinimg.com/474x/29/84/40/29844054acb89dbabcf6d83e840f63ec.jpg"
     },
     {
-      "id": "5",
+      "id": 5,
       "firstName": "Emma",
       "lastName": "Miller",
       "username": "emmaj",
@@ -51,7 +51,7 @@
       "image": "https://i.pinimg.com/474x/c1/50/6a/c1506a85ec0c73145881d49417184ad4.jpg"
     },
     {
-      "id": "6",
+      "id": 6,
       "firstName": "Quang",
       "lastName": "Phu",
       "username": "Phudeptrai123",
@@ -59,6 +59,20 @@
       "password": "123",
       "token": "HFKYFwfiB9",
       "image": "https://i.pinimg.com/474x/90/57/0a/90570addee2645866a597530721f37fd.jpg"
+    },
+    {
+      "id": 7,
+      "username": "HoangDuongS",
+      "email": "hoangduong@gmail.com",
+      "password": "123123",
+      "token": "a5a8ecebdd17618e"
+    },
+    {
+      "id": 8,
+      "username": "atan14",
+      "email": "anhtan14@gmail.com",
+      "password": "123",
+      "token": "b5c86884494fb613"
     }
   ],
   "posts": [
@@ -171,6 +185,26 @@
       "comment": 10,
       "share": 2,
       "postTime": "2024-08-12T00:00:00.000Z"
+    },
+    {
+      "id": "01yjlypgb-m07tqm45",
+      "userId": 7,
+      "like": 0,
+      "comment": 0,
+      "share": 0,
+      "postTime": "2024-08-24T07:33:43.925Z",
+      "image": "https://res.cloudinary.com/insdata/image/upload/v1724484963/000_kdqvdc.jpg",
+      "body": "Chuong Nhuoc Nam !!!"
+    },
+    {
+      "id": "y1izfjuqf-m07ukqf2",
+      "userId": 8,
+      "like": 0,
+      "comment": 0,
+      "share": 0,
+      "postTime": "2024-08-24T07:57:09.183Z",
+      "image": "https://res.cloudinary.com/insdata/image/upload/v1724486890/Screenshot_2022-12-02_204729_dn5oj3.png",
+      "body": "just for fun !!"
     }
   ]
 }
